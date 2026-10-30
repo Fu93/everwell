@@ -1444,3 +1444,42 @@ h1, h2, h3, h4, h5 {
     text-align: center;
   }
 }
+
+/* ==========================================================================
+   Added: plan-alignment notes, status strip, business model
+   ========================================================================== */
+.hero-note {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  border-left: 3px solid var(--emerald);
+  padding-left: 0.75rem;
+}
+
+.mockup-caption {
+  margin-top: 0.85rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  letter-spacing: 0.02em;
+}
+
+.status-section {
+  padding: 6rem 0;
+  background: var(--bg-main);
+}
+
+.status-section .step-card.status-now {
+  border-color: var(--emerald);
+  box-shadow: 0 0 0 1px var(--emerald) inset;
+}
+
+.status-section .step-card.status-now .step-highlight {
+  color: #047857;
+  background: var(--emerald-light);
+}
+
+.model-section {
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+}
